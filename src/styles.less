@@ -1,0 +1,16 @@
+@primary-gradient: linear-gradient(to right, #8A2BE2, #FF69B4, #FFD700);
+@border-radius: 12px;
+
+.carousel-card {
+  position: relative;
+  border-radius: @border-radius;
+  background-color: white;
+  transition: all 0.3s ease-in-out;
+  border: 2px solid transparent;
+  
+  &.active {
+    border: 2px solid;
+    border-image-source: @primary-gradient;
+    border-image-slice: 1;
+  }
+}

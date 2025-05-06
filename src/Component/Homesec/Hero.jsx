@@ -1,11 +1,11 @@
 import React from "react";
 import hero from "../../assets/Images/Hero.png";
-import Ellipse from "../../assets/Images/Ellipse.png";
+import Ellipse from "../../assets/Images/Ellipsee.png";
 
 const Hero = () => {
   return (
     <div className="overflow-hidden relative">
-      <section className="flex flex-col md:flex-row items-center justify-between px-10 py-2">
+      <section className="flex flex-col md:flex-row items-center justify-between px-10 py-16">
         {/* Left Side Content */}
         <div className="max-w-lg text-left">
           <h1 className="text-4xl md:text-5xl leading-tight">

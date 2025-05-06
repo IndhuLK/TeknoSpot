@@ -1,5 +1,5 @@
 import React from "react";
-import Ellipse from "../../assets/Images/Ellipse.png";
+import Ellipse from "../../assets/Images/Ellipsee.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation,  Autoplay } from "swiper/modules";
 import "swiper/css";

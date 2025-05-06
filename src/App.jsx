@@ -7,8 +7,8 @@ import Services from "./Component/Services/Services";
 import Blog from "./Component/Blog/Blog";
 import Contact from "./Component/Contact/Contact";
 import Footer from "./NavFoot/Footer";
-import WebDevelopment from "./Component/Services/WebDevelopment"
-import AppDevelopment from "./Component/Services/AppDevelopment"
+import WebDevelopment from "./Component/WebDevelopment/WebDevelopment"
+import AppDevelopment from "./Component/MobileApp/AppDevelopment"
 import SEOSerices from "./Component/Services/SEOSerices"
 import SocialMediaMarketing from "./Component/Services/SocialMediaMarketing"
 import GraphicsDesign from "./Component/Services/GraphicsDesign"

@@ -4,7 +4,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Pagination, Navigation } from "swiper/modules";
-import Ellipse from "../../assets/Images/Ellipse.png";
+import Ellipse from "../../assets/Images/Ellipsee.png";
 import group from "../../assets/Images/Group.png";
 
 const slides = [
@@ -33,7 +33,7 @@ const slides = [
 const Service = () => {
   return (
     <div className="relative overflow-hidden">
-    <div className="w-full flex flex-col justify-center items-center py-10 bg-gray-100">
+    <div className="w-full flex flex-col justify-center items-center py-16 bg-gray-100 ">
       <h1 className="text-3xl font-bold mb-6 text-gray-800">
         Our Interactive Web Design Services
       </h1>

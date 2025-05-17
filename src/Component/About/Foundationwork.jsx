@@ -10,7 +10,7 @@ const Foundationwork = () => {
     <div className="relative overflow-hidden">
       <div className="bg-gray-50 py-5 px-4 sm:px-6 lg:px-16 ">
         <div className="text-center mb-12 text-base/8">
-          <p className="w-16 h-1 bg-gradient-to-r from-pink-500 to-purple-600 place-self-center"></p>
+          <p className="w-16 h-1 bg-gradient-to-r from-blue-700 via-purple-500 to-red-500 place-self-center"></p>
           <h1 className="text-3xl/11 text-center font-bold">
             Foundation of Our Work
           </h1>
@@ -24,7 +24,7 @@ const Foundationwork = () => {
               {/* Icon and Title Side by Side */}
               <div className="flex items-center gap-2 mb-4">
                 <img src={Mission} alt="Mission" className="w-12 h-12" />
-                <h3 className="font-bold text-xl bg-gradient-to-r from-blue-700 via-purple-600 to-pink-700 bg-clip-text text-transparent">
+                <h3 className="font-bold text-xl bg-gradient-to-r from-blue-700 via-purple-600 to-red-500 bg-clip-text text-transparent">
                   Our Mission
                 </h3>
               </div>
@@ -47,7 +47,7 @@ const Foundationwork = () => {
               {/* Icon and Title Side by Side */}
               <div className="flex items-center gap-2 mb-4">
                 <img src={Vision} alt="Mission" className="w-12 h-12" />
-                <h3 className="font-bold text-xl bg-gradient-to-r from-blue-700 via-purple-600 to-pink-700 bg-clip-text text-transparent">
+                <h3 className="font-bold text-xl bg-gradient-to-r from-blue-700 via-purple-600 to-red-500 bg-clip-text text-transparent">
                   Our Vision
                 </h3>
               </div>
@@ -69,7 +69,7 @@ const Foundationwork = () => {
               {/* Icon and Title Side by Side */}
               <div className="flex items-center gap-2 mb-4">
                 <img src={Purpose} alt="Mission" className="w-12 h-12" />
-                <h3 className="font-bold text-xl bg-gradient-to-r from-blue-700 via-purple-600 to-pink-700 bg-clip-text text-transparent">
+                <h3 className="font-bold text-xl bg-gradient-to-r from-blue-700 via-purple-600 to-red-500 bg-clip-text text-transparent">
                   Our Purpose
                 </h3>
               </div>

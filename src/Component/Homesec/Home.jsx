@@ -5,7 +5,6 @@ import BestWebDesign from './BestWebDesign'
 import Workingwith from './Workingwith'
 import Testimonial from './Testimonial'
 import Featuredservice from './Featuredservice'
-import TechStack from './TechStack'
 import MissionProcess from './MissionProcess'
 import Timeline from './Timeline'
 import bg from "../../assets/Images/Bg.png";
@@ -23,7 +22,6 @@ const Home = () => {
         <Workingwith />
         <Testimonial />
         <Featuredservice />
-        <TechStack />
         <MissionProcess/>
         <Timeline />
     </div>

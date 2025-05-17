@@ -5,25 +5,25 @@ import Ellipse from "../../assets/Images/Ellipsee.png";
 const FaqAccDev = () => {
   const faqs = [
     {
-      question: "What is included in our web development service?",
+      question: "What is included in our web development services?",
       answer:
-        "Our service includes front-end and back-end development, UX/UI design, SEO optimization, and post-launch support.",
+        "Tekno Spot offers a wide range of web development services, including customized web development, ecommerce site creation, and CMS integration with platforms such as WordPress, Drupal, and Magento. We also specialize in mobile application development. Furthermore, we provide ongoing website maintenance and support to keep your online presence strong and effective.",
     },
     {
       question:
         "What unique approaches does Tekno Spot use in creating web applications?",
       answer:
-        "We leverage cutting-edge frameworks, agile methodologies, and a design-first approach to deliver scalable and user-friendly applications.",
+        "Tekno Spot sets itself apart by placing a strong emphasis on our clients. We utilize cutting-edge technology, Agile development practices, and a deep understanding of industry needs. Our commitment to customized solutions and maintaining high-quality standards is what makes us stand out. Furthermore, we focus on delivering seamless and user-friendly experiences by carefully designing user flows. To keep you informed about any updates, we provide detailed release notes, ensuring a smooth development journey for your web applications.",
     },
     {
       question: "Will my Web Application be Mobile-Friendly?",
       answer:
-        "Absolutely! All our web applications are designed to be responsive and optimized for mobile devices.",
+        "Certainly! Every website and web application we create is designed to be fully responsive, guaranteeing a smooth experience across all devices, whether it's a desktop or a smartphone. Additionally, our mobile app development services prioritize optimal performance on mobile platforms.",
     },
     {
       question: "What is a headless CMS, and should I consider using it?",
       answer:
-        "A headless CMS separates content management from the front end, allowing flexibility with frameworks. It’s great for scalable and dynamic apps.",
+        "A headless CMS decouples the front-end from the back-end of your website, providing enhanced flexibility and scalability. This approach is particularly beneficial for businesses with intricate requirements or those aiming for optimal performance across various platforms.",
     },
   ];
 

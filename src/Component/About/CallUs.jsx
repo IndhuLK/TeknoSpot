@@ -3,7 +3,7 @@ import ExpertImage from "../../assets/Aboutimage/Call.png";
 
 const CallUs = () => {
   return (
-    <div className="relative bg-gradient-to-r from-[#B4D6FB] to-[#D6B4FB] rounded-lg my-40 mx-4 md:mx-16 flex items-center justify-between p-6 md:p-10">
+    <div className="relative bg-gradient-to-r from-yellow-200 to-green-300 rounded-lg my-40 mx-4 md:mx-16 flex items-center justify-between p-6 md:p-10">
       
       {/* Left Section */}
       <div className=" relative z-10 flex flex-col space-y-4 max-w-lg">
@@ -43,7 +43,7 @@ const CallUs = () => {
         <img
           src={ExpertImage}
           alt="Speak to Expert"
-          className="max-w-[350px] h-[450px] object-contain block mx-auto transform -translate-y-"
+          className="max-w-[350px] h-[350px] object-contain block mx-auto transform -translate-y-"
         />
       </div>
 

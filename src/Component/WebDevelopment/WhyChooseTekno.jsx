@@ -1,6 +1,6 @@
 import React from "react";
 import { FaCheckCircle } from "react-icons/fa";
-import WhychooseTekno from '../../assets/WebDevelopIMG/WhychooseTekno.png'
+import WhychooseTekno from "../../assets/WebDevelopIMG/WhychooseTekno.png";
 import { ImCheckmark } from "react-icons/im";
 
 const WhyChooseTekno = () => {
@@ -27,28 +27,34 @@ const WhyChooseTekno = () => {
 
               {/* Title */}
               <h2 className="text-2xl md:text-3xl font-semibold text-gray-800 leading-relaxed">
-                Why Choose <span className="font-bold text-black">Tekno Spot for Web</span>
-                <span className="font-bold text-black"> Application <br />Development?</span>
+                Why Choose{" "}
+                <span className="font-bold text-black">Tekno Spot for Web</span>
+                <span className="font-bold text-black">
+                  {" "}
+                  Application <br />
+                  Development?
+                </span>
               </h2>
 
               {/* Paragraph */}
               <p className="text-gray-600 mt-4 text-sm md:text-base">
-                Tekno Spot merges extensive industry expertise with a commitment to technology and client requirements. 
-                Continue reading to discover why we are your top choice for web application development!
+                Tekno Spot merges extensive industry expertise with a commitment
+                to technology and client requirements. Continue reading to
+                discover why we are your top choice for web application
+                development!
               </p>
             </div>
           </div>
 
           {/* Right side: Feature list */}
           <div className="flex justify-center items-start md:items-center">
-            <div className="space-y-4 max-w-lg">
+            <div className="space-y-10 max-w-lg">
               {[
                 "Affordable Strategy",
                 "Varied Industry Expertise",
                 "Technological Adaptability and Enhanced Skillset",
-                "Performance and Framework Integration",
-                "Focused Development",
-                "Global Expertise & Unified Communication"
+                "Performance and Framework Integration Focused Development",
+                "Global Expertise & Unified Communication",
               ].map((item, idx) => (
                 <div key={idx} className="flex items-start gap-3">
                   <ImCheckmark className="text-blue-600 mt-1" />

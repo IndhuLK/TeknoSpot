@@ -41,7 +41,7 @@ const TeknoSpotTimeline = () => {
         {/* Header */}
         <div className="text-center mb-12 max-w-4xl mx-auto">
           <div className="flex justify-center mb-1">
-            <div className="w-10 h-1 text-transparent  bg-gradient-to-r from-purple-500 to-pink-600 mb-2"></div>
+            <div className="w-10 h-1 text-transparent  bg-gradient-to-r from-blue-500 via-purple-500 to-red-500 mb-2"></div>
           </div>
           <p className="text-sm text-black mt-2">Why Tekno Spot for Web Designing?</p>
           <h2 className="text-3xl font-bold mt-3">Top Web Designing Company in Trichy</h2>

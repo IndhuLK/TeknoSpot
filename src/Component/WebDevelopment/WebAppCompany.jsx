@@ -16,7 +16,7 @@ const WebAppCompany = () => {
       <div className="flex flex-col md:flex-row items-center justify-between px-20 py-22 relative z-10">
         {/* Left Side - Text Content */}
         <div className="md:w-1/2">
-          <p className="w-15 h-1 space-y-4 bg-gradient-to-r from-pink-500 to-purple-600 text-transparent mb-4"></p>
+          <p className="w-15 h-1 space-y-4 bg-gradient-to-r from-blue-400 via-violet-600 to-red-400 text-transparent mb-4"></p>
           <h1 className="text-4xl leading-relaxed">
             Searching for a{" "}
             <span className="font-bold">
@@ -33,7 +33,7 @@ const WebAppCompany = () => {
             <img
               src={Charater}
               alt="Character"
-              className="absolute -left-30 -top-25 w-70 z-10"
+              className="absolute -left-30 -top-25 w-70 z-10 rotate-0 scale-x-[-1]"
             />
 
             {/* Bottom Right Decoration Image */}
@@ -51,7 +51,9 @@ const WebAppCompany = () => {
                 with us means you receive bespoke web applications designed to
                 meet your unique business requirements. Our specialists adopt a
                 mobile-first strategy, delivering an exceptional user experience
-                on every device. If you're looking to create a minimum viable
+                on every device. </p>
+                
+                <p className="text-gray-800 leading-relaxed mt-1">If you're looking to create a minimum viable
                 product (MVP) to explore your business idea or a proof of
                 concept (PoC) to confirm your concept, we will collaborate with
                 you closely. This partnership will help keep your project

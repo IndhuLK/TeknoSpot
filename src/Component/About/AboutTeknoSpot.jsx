@@ -19,7 +19,7 @@ const AboutTeknoSpot = () => {
       <div className="md:w-1/2">
         <h1 className="text-4xl font-light" data-aos="fade-down">
           About{" "}
-          <span className="font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
+          <span className="font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-red-500 bg-clip-text text-transparent">
             Tekno Spot
           </span>
         </h1>
@@ -46,7 +46,7 @@ const AboutTeknoSpot = () => {
         </p>
 
         {/* Bullet points and List */}
-        <div className="bg-gradient-to-r rounded-md">
+        <div className="bg-gradient-to-r rounded-md mt-4">
           <ul className="space-y-4">
             {points.map((point, index) => (
               <li key={index} className="flex items-start text-gray-700">
@@ -82,8 +82,10 @@ const AboutTeknoSpot = () => {
           </ul>
         </div>
         {/* Gradient Background Blur Effect at Bottom Left */}
-      <div className="absolute -bottom-28 -left-28 w-[400px] h-[400px] bg-gradient-to-br from-sky-200/30
-       to-blue-200/20 rounded-full z-10 blur-xl"></div>
+        <div
+          className="absolute -bottom-28 -left-28 w-[400px] h-[400px] bg-gradient-to-br from-sky-200/30
+       to-blue-200/20 rounded-full z-10 blur-xl"
+        ></div>
       </div>
 
       {/* Right side - Image Section */}

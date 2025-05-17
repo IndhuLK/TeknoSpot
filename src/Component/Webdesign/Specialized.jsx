@@ -21,33 +21,39 @@ const Specialized = () => {
 
   return (
     <div className="py-12 px-4 text-center">
-        <div className="w-16 h-1 bg-gradient-to-r from-pink-500 to-purple-600 place-self-center mb-4"></div>
+        <div className="w-16 h-1 bg-gradient-to-r from-blue-500 via-purple-500 to-red-500 place-self-center mb-4"></div>
       <div className="mb-10">
-        <p className="text-gray-700 font-medium">We are</p>
-        <h2 className="text-2xl font-bold text-black">
+        <p className="text-gray-700 font-light text-4xl mb-1">We are</p>
+        <h2 className="text-4xl font-bold text-black">
           <span className=" pb-1">Specialized in</span>
         </h2>
       </div>
 
       {/* First row - 4 items */}
-      <div className="flex justify-center flex-wrap gap-20 mb-10">
-        {technologies.slice(0, 4).map((tech, index) => (
-          <div key={index} className="flex flex-col items-center">
-            <img src={tech.icon} alt={tech.name} className="w-60 h-40 mb-2" />
-            <p className="text-sm font-medium text-gray-700"></p>
-          </div>
-        ))}
-      </div>
+      <div className="flex justify-center flex-wrap gap-12 mb-10">
+  {technologies.slice(0, 4).map((tech, index) => (
+    <div key={index} className="flex flex-col items-center">
+      <img
+        src={tech.icon}
+        alt={tech.name}
+        className="w-64 h-24 object-contain"
+      />
+    </div>
+  ))}
+</div>
 
-      {/* Second row - 3 items */}
-      <div className="flex justify-center flex-wrap gap-10">
-        {technologies.slice(4).map((tech, index) => (
-          <div key={index + 4} className="flex flex-col items-center">
-            <img src={tech.icon} alt={tech.name}className="w-60 h-40  mb-2" />
-            <p className="text-sm font-medium text-gray-700"></p>
-          </div>
-        ))}
-      </div>
+{/* Second row - 3 items */}
+<div className="flex justify-center flex-wrap gap-12">
+  {technologies.slice(4).map((tech, index) => (
+    <div key={index + 4} className="flex flex-col items-center">
+      <img
+        src={tech.icon}
+        alt={tech.name}
+        className="w-64 h-24 object-contain"
+      />
+    </div>
+  ))}
+</div>
     </div>
   )
 }

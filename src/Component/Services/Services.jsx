@@ -1,16 +1,9 @@
-import React from "react";
-import TrichyWebDesign from "./TrichyWebDesign";
-import TeknoSpotTimeline from "./TeknoSpotTimeline";
-import BusinessWebsite from "../Webdesign/BusinessWebsite";
+import React from 'react'
 
-const Services = () => {
+const GraphicsDesign = () => {
   return (
-    <div>
-      <TrichyWebDesign />
-      <TeknoSpotTimeline />
-      <BusinessWebsite />
-    </div>
-  );
-};
+    <div>GraphicsDesign</div>
+  )
+}
 
-export default Services;
+export default GraphicsDesign

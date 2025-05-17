@@ -17,11 +17,11 @@ const FeaturedDevelopment = () => {
         <section className="min-h-screen flex flex-col items-center bg-gray-50 py-16 px-4 ">
           {/* Title Section */}
           <div className="text-center mb-16">
-            <div className="w-16 h-1 bg-gradient-to-r from-pink-500 to-purple-600 place-self-center mb-4"></div>
-            <h2 className="text-3xl font-light text-gray-800">
+            <div className="w-16 h-1 bg-gradient-to-r from-blue-500 via-purple-500 to-red-500 place-self-center mb-4"></div>
+            <h2 className="text-4xl font-light text-gray-800">
               Our featured services 
             </h2>
-            <h3 className="text-3xl text-gray-800 mb-4">
+            <h3 className="text-4xl text-gray-800 mb-4">
             and <span className="text-black font-bold">development approach</span>
             </h3>
             <p className="text-yellow-500 font-medium text-sm">
@@ -46,7 +46,7 @@ const FeaturedDevelopment = () => {
                   <div className="p-6 flex flex-col items-center text-center relative">
                     {/* Top Gradient Underline */}
                     {service.topGradientUnderline && (
-                      <div className="absolute top-4 left-1/2 transform -translate-x-1/2 w-6 h-1 bg-gradient-to-r from-pink-500 to-purple-600 rounded-full"></div>
+                      <div className="absolute top-4 left-1/2 transform -translate-x-1/2 w-6 h-1 bg-gradient-to-r from-blue-500 via-purple-500 to-red-500 rounded-full"></div>
                     )}
                     <div className=''>
                     <h3 className="text-lg font-semibold mb-4 mt-2">{service.title}</h3>
@@ -55,7 +55,7 @@ const FeaturedDevelopment = () => {
     
                     {/* Bottom Gradient Underline */}
                     {service.bottomGradientUnderline && (
-                      <div className="h-1 w-6 bg-gradient-to-r from-pink-500 to-purple-600 mt-auto rounded-full"></div>
+                      <div className="h-1 w-6 bg-gradient-to-r from-blue-500 via-purple-500 to-red-500 mt-auto rounded-full"></div>
                     )}
                   </div>
     
@@ -82,14 +82,14 @@ const FeaturedDevelopment = () => {
                   <div className="p-6 flex flex-col items-center text-center relative">
                     {/* Top Gradient Underline */}
                     {service.topGradientUnderline && (
-                      <div className="absolute top-4 left-1/2 transform -translate-x-1/2 w-6 h-1 bg-gradient-to-r from-pink-500 to-purple-600 rounded-full"></div>
+                      <div className="absolute top-4 left-1/2 transform -translate-x-1/2 w-6 h-1 bg-gradient-to-r from-blue-500 via-purple-500 to-red-500 rounded-full"></div>
                     )}
                     <h3 className="text-lg font-semibold mb-4 mt-2">{service.title}</h3>
                     <p className="text-gray-600 text-sm mb-6">{service.description}</p>
     
                     {/* Bottom Gradient Underline */}
                     {service.bottomGradientUnderline && (
-                      <div className="h-1 w-6 bg-gradient-to-r from-pink-500 to-purple-600 mt-auto rounded-full"></div>
+                      <div className="h-1 w-6 bg-gradient-to-r from-blue-500 via-purple-500 to-red-500 mt-auto rounded-full"></div>
                     )}
                   </div>
     

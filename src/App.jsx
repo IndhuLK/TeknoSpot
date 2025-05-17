@@ -9,11 +9,9 @@ import Contact from "./Component/Contact/Contact";
 import Footer from "./NavFoot/Footer";
 import WebDevelopment from "./Component/WebDevelopment/WebDevelopment"
 import AppDevelopment from "./Component/MobileApp/AppDevelopment"
-import SEOSerices from "./Component/Services/SEOSerices"
-import SocialMediaMarketing from "./Component/Services/SocialMediaMarketing"
-import GraphicsDesign from "./Component/Services/GraphicsDesign"
-import VideoEditing from "./Component/Services/VideoEditing"
-import PrivacyPolicy from "./Component/Services/PrivacyPolicy"
+import SEOService from "./Component/SEO/SEOService"
+import SocialMediaMarketing from "./Component/SocialMedia/SocialMediaMarketing"
+import GraphicsDesign from "./Component/Services/Services"
 import WebDesign from "./Component/Webdesign/WebDesign";
 
 
@@ -29,11 +27,9 @@ function App() {
           <Route path="/Web-Design" element={<WebDesign/>} />
           <Route path="/Web-Development" element={<WebDevelopment />} />
           <Route path="/App-Development" element={<AppDevelopment />} />
-          <Route path="/SEO-Services" element={<SEOSerices />} />
+          <Route path="/SEO-Service" element={<SEOService />} />
           <Route path="/Social-Media-Marketing" element={<SocialMediaMarketing />} />
           <Route path="/Graphics-Design" element={<GraphicsDesign />} />
-          <Route path="/Video-Editing" element={<VideoEditing />} />
-          <Route path="Privacy-Policy" element={<PrivacyPolicy />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>

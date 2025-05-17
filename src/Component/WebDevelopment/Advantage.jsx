@@ -41,11 +41,11 @@ const Advantage = () => {
     <section className="max-w-7xl mx-auto px-4 py-16 text-gray-800">
       <div className="text-center mb-12">
         {/* Gradient line at top */}
-      <div className="w-25 h-1 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 rounded-full mb-10 mx-auto"></div>
+      <div className="w-25 h-1 bg-gradient-to-r from-blue-500 via-purple-500 to-red-500 rounded-full mb-10 mx-auto"></div>
         <h2 className="text-4xl font-bold mb-2">
           Advantages of Developing <span className="text-black">Web Application</span>
         </h2>
-        <p className="text-sm text-yellow-500">
+        <p className="text-md text-yellow-500 font-semibold mt-3" >
           Creating web application enhances your online visibility and helps your business expand by improving user experience. Let us show you how!
         </p>
       </div>

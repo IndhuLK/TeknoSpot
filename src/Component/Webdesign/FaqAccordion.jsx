@@ -7,29 +7,29 @@ const FaqAccordion = () => {
     {
       question: "How does my business get impacted with website design?",
       answer:
-        "Professional website design significantly impacts your business by establishing credibility, enhancing brand identity, and improving user experience. A well-designed website can increase conversion rates, extend your market reach, and provide valuable analytics for business decisions.",
+        "Because website design impacts user experience, brand perception, and conversion rates, it has a big impact on your business. In the end, a well-designed website increases confidence, engages users, and inspires them to do desired actions, like contacting you or making an order.",
     },
     {
-      question: "Will my website be mobile-friendly and responsive?",
+      question: "How Will a User-Friendly Website Improve Customer Experiences?",
       answer:
-        "Absolutely! All our websites are built with responsive design principles ensuring they look and function perfectly across all devices - from smartphones and tablets to desktop computers. This approach improves user experience and is favored by search engines like Google.",
-    },
-    {
-      question:
-        "How Will a User-Friendly Website Improve Customer Experiences?",
-      answer:
-        "User-friendly websites enhance customer experiences by providing intuitive navigation, faster loading times, and accessible information. This leads to increased engagement, reduced bounce rates, and higher conversion rates as visitors can easily find what they're looking for.",
+        "An amazing client experience is established on a foundation of a user-friendly website. A well-designed website makes it easy for users to navigate through the pages and get the information they require. Faster access to products, services, and relevant content comes from this, saving time and improving the way people view your brand's offers. A lasting impression is created by this better experience, increasing the possibility of return visits and conversions.",
     },
     {
       question:
-        "How long does it take to complete a web design project in Trichy?",
+        "Will my website be mobile-friendly and responsive?",
       answer:
-        "The timeline for web design projects in Trichy typically ranges from 4-12 weeks, depending on the project's complexity, requirements, and your team's responsiveness. Simple websites may be completed within 3-4 weeks, while more complex platforms with custom functionality might take 2-3 months.",
+        "Yes. Mobile-friendly designs are at the heart of Rocket's design approach instead of being a secondary concern. Your website will be responsive and mobile-friendly, so you can be sure. We make sure that every page that comes online is tested for usability across various browsers and devices.",
     },
     {
-      question: "Why is SEO important for Custom Website Design?",
+      question:
+        "Why is SEO important for Custom Website Design?",
       answer:
-        "SEO is crucial for custom website design because it improves visibility in search engine results, drives organic traffic, and increases conversions. An SEO-optimized custom website ensures technical elements like responsiveness and loading speed are perfected while content is structured for both users and search engines.",
+        "For the purpose of to boost visibility, increase organic traffic, improve user engagement, and improve conversions, SEO makes sure that a custom website is search engine optimized.",
+    },
+    {
+      question: "How long does it take to complete a web design project in Trichy?",
+      answer:
+        "For the purpose of to boost visibility, increase organic traffic, improve user engagement, and improve conversions, SEO makes sure that a custom website is search engine optimized.",
     },
   ];
 
@@ -63,7 +63,7 @@ const FaqAccordion = () => {
         <div className="px-20 mb-10">
           <h2 className="text-3xl relative inline-block mt-10">
             Frequently <span className="font-bold">ASKED QUESTIONS</span>
-            <div className="absolute -top-6 left-0 w-28 h-1 text-transparent  bg-gradient-to-r from-purple-500 to-pink-600 mb-2"></div>
+            <div className="absolute -top-6 left-0 w-28 h-1 text-transparent  bg-gradient-to-r from-blue-500 via-purple-500 to-red-500 mb-2"></div>
           </h2>
         </div>
 

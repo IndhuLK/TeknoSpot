@@ -26,7 +26,7 @@ const TechStack = () => {
     <div className="py-20 px-4 sm:px-6 lg:px-16">
       <div className="text-center mb-12 text-base/8">
         <p
-          className="w-16 h-1 bg-gradient-to-r from-pink-500 to-purple-600 mb-4 
+          className="w-16 h-1 bg-gradient-to-r from-blue-700 via-purple-500 to-red-500 mb-4 
             place-self-center"
         ></p>
         <h1 className="text-3xl">
@@ -39,9 +39,9 @@ const TechStack = () => {
           <p
             key={index}
             className="text-lg font-semibold text-transparent bg-clip-text bg-gradient-to-r from-gray-800 to-gray-800  
-      hover:from-purple-900 hover:to-pink-600 transition duration-300 relative inline-block group"
+      hover:from-blue-700 hover:via-purple-500 hover:to-red-500 transition duration-300 relative inline-block group"
           >
-            <span className="group-hover:after:w-1/2 after:content-[''] after:block after:w-0 after:h-[3px] after:bg-gradient-to-r after:from-pink-500 after:to-purple-600 after:transition-all after:duration-300 after:mx-auto">
+            <span className="group-hover:after:w-1/2 after:content-[''] after:block after:w-0 after:h-[3px] after:bg-gradient-to-r after:from-blue-700 after:via-purple-500 after:to-red-500 after:transition-all after:duration-300 after:mx-auto">
               {label}
             </span>
           </p>

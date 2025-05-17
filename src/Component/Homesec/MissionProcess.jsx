@@ -8,7 +8,7 @@ const MissionProcess = () => {
       {/* Left Side - Text Content */}
       <div className="md:w-1/2">
         <p
-          className="w-15 h-1 space-y-4 bg-gradient-to-r from-pink-500 to-purple-600
+          className="w-15 h-1 space-y-4 bg-gradient-to-r from-blue-500 via-purple-500 to-red-500
               text-transparent mb-4"
         ></p>
         <h2 className="text-3xl md:text-4xl text-gray-900 mb-8">
@@ -19,8 +19,8 @@ const MissionProcess = () => {
         </h2>
 
         <p className="text-lg text-yellow-500 font-semibold mb-2">
-          Our Best Digital Marketing services in Trichy, that increase <br />
-          your business growth.
+          Our Best Digital Marketing services in Trichy, that increase your business growth.
+
         </p>
         <p className="text-gray-700 text-base/8 -tracking-tight">
           Average Digital Marketing doesn’t work – You need an experienced

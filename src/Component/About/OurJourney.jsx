@@ -6,9 +6,9 @@ const OurJourney = () => {
   return (
     <div className="relative overflow-hidden">
       <div className="text-center mt-10">
-        <p className="text-3xl font-semibold">
+        <p className="text-4xl font-light">
           Our Journey —
-          <span className="font-bold bg-gradient-to-r from-blue-700 via-purple-600 to-pink-700 bg-clip-text text-transparent">
+          <span className="font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-red-500 bg-clip-text text-transparent">
             {" "}
             Driven by Vision, Defined by Results
           </span>
@@ -42,7 +42,7 @@ const OurJourney = () => {
 
           <div className="md:w-1/2 mb-10 py-3">
             <p
-              className="w-15 h-1 space-y-4 bg-gradient-to-r from-pink-500 to-purple-600
+              className="w-15 h-1 space-y-4 bg-gradient-to-r from-blue-700 via-purple-500 to-red-500
               text-transparent "
             ></p>
             <h2 className="text-3xl font-bold mt-2">Our Core Values</h2>

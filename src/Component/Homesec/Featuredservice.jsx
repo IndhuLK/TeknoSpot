@@ -33,7 +33,7 @@ const services = [
   },
   {
     title: "Graphics Design & Video Production",
-    desc: "We create eye-catching, attractive and impressive designs. Logos, Social Media Posters, Brochures and more.",
+    desc: "We create eye-catching, attractive and impressive designs. Logos, Social Media Posters, Brouchers and more.",
     icon: Success,
     color: "orange",
   },
@@ -43,13 +43,19 @@ const services = [
     icon: Lock,
     color: "purple",
   },
+  {
+    title: "Video Production",
+    desc: "We produce professional and high-quality videos that will impress your target audience. ",
+    icon: Lock,
+    color: "purple",
+  },
 ];
 
 const Featuredservice = () => {
   return (
     <div className="bg-gray-50 py-16 px-4 sm:px-6 lg:px-16">
       <div className="text-center mb-12 text-base/8">
-        <p className="w-16 h-1 bg-gradient-to-r from-pink-500 to-purple-600 mb-4 place-self-center"></p>
+        <p className="w-16 h-1 bg-gradient-to-r  from-blue-500 via-purple-500 to-red-500 mb-4 place-self-center"></p>
         <h1 className="text-3xl/11 text-center">
           Our Featured Services
           <br />& <span className="font-bold">Development Approach</span>

@@ -22,7 +22,7 @@ const Hero = () => {
           </h1>
           <p className="text-gray-600 mt-4 text-base/8  tracking-widest">
             Tekno Spot, Trichy is the best company for Web Design and Web
-            Development that will be your Digital Transformation <br />Partner.
+            Development that will be your Digital Transformation <br /> Partner.
           </p>
           <button className="mt-6 px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition">
             Get a Quote !
